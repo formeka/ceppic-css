@@ -9,3 +9,7 @@
 # Maquette 
 
 - [https://www.frontendmentor.io/](https://www.frontendmentor.io/)
+
+# Fonts
+
+- [https://fonts.google.com](https://fonts.google.com)

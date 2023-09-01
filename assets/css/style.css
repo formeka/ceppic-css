@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+
 * {
   margin:0;
   padding:0;
@@ -6,6 +12,7 @@
 body {
   color: white;
   background-color: black;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -17,17 +24,34 @@ p {
   color: red;
 }
 
-h2 {
+h1, h2 {
   color:blueviolet;
+  font-family: Arial, sans-serif;
+  font-weight:700;
+  font-style: italic;
 }
 
-.titre {
+/* h1 {
+  background: url("../images/house-solid.svg") no-repeat;
+  padding-left: 50px;
+  padding-top: 200px;
+} */
+
+header img, header h1 {
+  display: inline-block;
+}
+
+header img {
+  width: 30px;
+}
+
+/* .titre {
   color:brown;
 }
 
 .titre2 {
   border-bottom: 1px solid blue;
-}
+} */
 
 #paragraphe {
   border: solid 1px #fff;
@@ -35,14 +59,24 @@ h2 {
 
 a:link {
   color:red;
-  text-decoration: none;
 }
 
 a:visited {
   color:black;
+  text-decoration: none;
 }
 
 a:hover {
   color:blue;
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+p:hover {
+  color:black;
+  background-color: white;
+}
+
+img {
+  width: 10%;
+  display: block;
 }

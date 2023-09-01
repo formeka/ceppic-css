@@ -1,0 +1,48 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+header {
+  color:antiquewhite;
+  background-color: aquamarine;
+}
+
+p {
+  color: red;
+}
+
+h2 {
+  color:blueviolet;
+}
+
+.titre {
+  color:brown;
+}
+
+.titre2 {
+  border-bottom: 1px solid blue;
+}
+
+#paragraphe {
+  border: solid 1px #fff;
+}
+
+a:link {
+  color:red;
+  text-decoration: none;
+}
+
+a:visited {
+  color:black;
+}
+
+a:hover {
+  color:blue;
+  text-decoration: underline;
+}
